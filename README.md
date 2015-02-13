@@ -16,4 +16,4 @@ npm run serve
 
 ## License
 
-Released under the [MIT License](http://www.opensource.org/licenses/mit-license.php).
+Released under the ISC License
