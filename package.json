@@ -1,0 +1,24 @@
+{
+  "name": "node-mobius",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "serve": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfryga/node-mobius.git"
+  },
+  "author": "piotr.fryga@allegro.pl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pfryga/node-mobius/issues"
+  },
+  "homepage": "https://github.com/pfryga/node-mobius",
+  "dependencies": {
+    "express": "^4.11.2",
+    "base64": "^2.1.0",
+    "request": "^2.51.0"
+  }
+}
