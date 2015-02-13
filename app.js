@@ -11,9 +11,10 @@ app.get('/ping', function(req, res) {
     res.send('pong');
 });
 
-app.get('/test', function(req, res) {
+app.get('/getOffer/:id', function(req, res) {
+    var offerId = req.params.id;
 
-    mobiusIns.getOffer(5071188387, function (error, offer) {
+    mobiusIns.getOffer(offerId, function (error, offer) {
         if (error) {
             res.status(404).send();
         } else {
